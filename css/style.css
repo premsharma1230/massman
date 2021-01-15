@@ -75,11 +75,11 @@ main header nav {
 }
 
 main header nav .logo {
-  width: 300px;
+  width: 200px;
 }
 
 main header nav .logo a img {
-  max-width: 54%;
+  max-width: 40%;
 }
 
 main header nav .Nav_item {
@@ -111,7 +111,7 @@ main header nav .Nav_item ul li {
 main header nav .Nav_item ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.1em;
+  font-size: .8em;
   text-transform: capitalize;
 }
 
@@ -130,5 +130,49 @@ main header nav .Nav_item ul li a {
 
 #element2 .vanta-canvas {
   height: 557px !important;
+}
+
+.list {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  text-transform: uppercase;
+  position: absolute;
+  margin-left: -140px;
+  margin-top: 22px;
+}
+
+.list a {
+  display: block;
+  color: #fff;
+}
+
+.list a:hover {
+  text-indent: 20px;
+}
+
+.list dt, .list dd {
+  text-indent: 10px;
+  line-height: 55px;
+  background: #E0FBAC;
+  margin: 0;
+  height: 55px;
+  width: 270px;
+  color: #fff;
+}
+
+.list dt {
+  /* Since we're hiding elements behind here, we need it in 3d */
+  -webkit-transform: translateZ(0.3px);
+  transform: translateZ(0.3px);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+}
+
+.list dd {
+  border-top: 1px dashed rgba(255, 255, 255, 0.3);
+  line-height: 35px;
+  font-size: 11px;
+  height: 35px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
